@@ -3,7 +3,7 @@ import bookImage from "../../assets/books.jpg";
 
 const Banner = () => {
   return (
-    <div className="flex justify-around items-center m-10 bg-gray-100 w-full mx-auto p-15 rounded-2xl">
+    <div className="flex justify-around items-center m-10 bg-gray-100 w-full mx-auto p-15 rounded-2xl mt-30">
       <div>
         <h1 className="text-4xl font-bold mb-10">
           Books to freshen up your bookshelf
@@ -11,7 +11,7 @@ const Banner = () => {
         <button className="btn btn-primary">Test Test</button>
       </div>
       <div>
-        <img className="w-8/12" src={bookImage} alt="" />
+        <img className="w-8/12 rounded-lg" src={bookImage} alt="" />
       </div>
     </div>
   );
